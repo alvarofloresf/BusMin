@@ -12,9 +12,6 @@ RSpec.describe Buscaminas do
         tablero.iniciarVidas == 1
         tablero.getTablero.length > 0
       end
-      it "Genero tablero dinamicamente" do
-        tablero = Buscaminas.new
-        tablero.getCeldaFila(0,0).length > 0	
-      end
+     
   
 end
